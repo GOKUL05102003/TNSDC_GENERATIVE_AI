@@ -1,0 +1,321 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hi there!",
+          "Greetings",
+          "How's it going?",
+          "Hi, what's up?"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Hello! How can I assist you?",
+          "Hi! I'm here to assist you.",
+          "Greetings! Welcome to our online store."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Farewell", "See you", "Take care", "Until next time"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Farewell! Come back soon.",
+          "See you later, have a great day!",
+          "Take care and have a wonderful day.",
+          "Until next time! Don't hesitate to return."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!",
+          "I appreciate it",
+          "Thank you very much",
+          "You've been great"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure",
+          "You're welcome! If you have any more questions, feel free to ask.",
+          "Thank you for your kind words!",
+          "You're too kind. It's been a pleasure assisting you.",
+          "You've been a great customer. Thank you!"
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "What flavors of tea do you have?",
+          "Tell me about your coffee selection",
+          "Tell me about your herbal tea selection",
+          "What are your unique coffee blends",
+          "Can you recommend a fruity tea?",
+          "What's your menu like?",
+          "Any specials today?",
+          "Got any recommendations?",
+          "What's popular here?"
+        ],
+        "responses": [
+          "We have coffee and tea",
+          "We offer a wide variety of tea flavors, including traditional, fruity, and exotic options. Explore our menu for details.",
+          "Our coffee range spans from light to dark roasts, including unique single-origin beans. Check them out on our website.",
+          "Our herbal tea selection includes a variety of blends, from relaxing chamomile to invigorating peppermint. Explore the full range on our website.",
+          "We have some unique coffee blends like our Espresso Roast and Mocha Java. Check them out for a distinctive coffee experience.",
+          "If you're looking for a fruity tea, you'll love our Tropical Paradise blend. It's bursting with tropical fruit flavors.",
+          "Our menu includes a variety of coffee and tea options. Don't miss our daily specials and recommendations from our baristas."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "Can I use Apple Pay?",
+          "What payment methods are accepted?",
+          "Do you have contactless payment options?",
+          "How can I settle the bill?",
+          "Is it cashless payment available?",
+          "Do you accept digital wallets?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, and Paypal",
+          "We accept most major credit cards and Paypal",
+          "Yes, we accept Apple Pay along with other major credit cards and digital payment methods.",
+          "You can pay with credit cards, digital wallets, and cash. We offer contactless payment options for your convenience.",
+          "We provide a variety of payment options, including credit cards, digital wallets, and cash payments.",
+          "We support modern payment methods, including contactless payments for a hassle-free checkout.",
+          "Settling the bill is easy. You can use credit cards, digital wallets, or pay with cash. We've got your preferred payment method covered.",
+          "We're a cashless establishment, and we accept a wide range of digital wallets for your convenience."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How about delivery",
+          "What about delivery",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "What's your shipping cost?",
+          "Can I track my order?",
+          "Do you offer same-day delivery?",
+          "What's the shipping time for international orders?",
+          "What's the shipping cost for international orders?",
+          "What's your delivery radius?",
+          "Can I get my order today?",
+          "Do you offer express shipping?",
+          "Tell me about your shipping policies."
+        ],
+        "responses": [
+            "Delivery takes 2-4 days",
+            "Shipping takes 2-4 days",
+            "Shipping is free for orders over $50. For smaller orders, a flat rate shipping fee applies.",
+            "Yes, you can track your order using the tracking number provided in your confirmation email.",
+            "Currently, we don't offer same-day delivery, but we provide fast shipping within 2-4 days.",
+            "International shipping times vary by location, but it typically takes 7-14 days. Check with us for specific details.",
+            "The shipping cost for international orders depends on the destination and package size. Contact us for a precise quote.",
+            "Our delivery radius covers most areas within the city. Contact us to confirm if we can deliver to your location.",
+            "We aim to deliver your order as swiftly as possible. While we don't offer same-day delivery, our standard shipping is quite efficient.",
+            "For express shipping options or specific details on our shipping policies, please visit our website or contact our customer support."
+          ]
+        },
+        {
+          "tag": "product_info",
+          "patterns": [
+            "Tell me about your tea products",
+            "What types of tea do you offer?",
+            "Give me details about your coffee offerings",
+            "Where do your coffee beans come from?",
+            "Tell me about your exotic tea flavors",
+            "What's special about your dark roast coffee?",
+            "Tell me about your herbal tea ingredients",
+            "What's unique about your single-origin coffee?",
+            "What's the caffeine content in your tea?",
+            "Do you have decaffeinated coffee?",
+            "Tell me about your green tea options."
+          ],
+          "responses": [
+            "We offer a wide range of tea products, including black, green, herbal, and specialty teas. Each tea is carefully selected for its unique flavor and aroma.",
+            "Our coffee selection includes various blends, from medium roast to dark roast, as well as single-origin options. We have something for every coffee enthusiast.",
+            "Our coffee beans are sourced from various regions worldwide. Each origin has a unique flavor profile. Explore our origins on our website.",
+            "Discover exotic tea flavors like Passionfruit Mango and Blueberry Bliss. They're a delightful departure from traditional teas.",
+            "Our dark roast coffee is known for its bold and rich flavor. It's perfect for those who enjoy a robust coffee experience.",
+            "Our herbal teas feature high-quality ingredients like chamomile, peppermint, and hibiscus. They're naturally caffeine-free and soothing.",
+            "Explore the world of coffee with our single-origin options. Each one showcases the unique characteristics of the region it comes from.",
+            "Caffeine content varies among our teas. Our black and green teas have moderate caffeine levels. For decaffeinated options, check our herbal teas.",
+            "Yes, we offer decaffeinated coffee for those who prefer to enjoy coffee without the caffeine kick. It's just as flavorful.",
+            "Our green tea selection includes classic green teas and unique blends like Jasmine Pearl and Moroccan Mint. They're all packed with flavor and antioxidants."
+          ]
+        },
+        {
+          "tag": "best_sellers",
+          "patterns": [
+            "What are your best-selling teas?",
+            "Tell me your popular coffee choices",
+            "What's your customer-favorite tea?",
+            "Which coffee is a hit with customers?",
+            "What's the most ordered tea on your menu?",
+            "Tell me about your top-rated coffee blend.",
+            "Which is best Tea or Coffee?"
+          ],
+          "responses": [
+            "Our best-selling teas include our classic black tea and soothing chamomile herbal tea. Customers also love our signature coffee blend for its rich taste.",
+            "Customers often choose our house blend coffee and the aromatic French roast. They're our top picks!",
+            "Our classic black tea is a customer favorite, and the house blend coffee is a top choice for coffee enthusiasts.",
+            "The most ordered tea on our menu is our classic black tea. For coffee, our house blend is a customer favorite.",
+            "Our customers rave about the classic black tea and our rich house blend coffee. They're beloved choices among our customers.",
+            "Our top-rated coffee blend is the house blend. It's known for its well-balanced flavor and is a constant hit with coffee lovers.",
+            "The choice between coffee and tea is a matter of personal preference"
+          ]
+        },
+        {
+          "tag": "discounts",
+          "patterns": [
+            "Do you offer any discounts?",
+            "Are there any ongoing promotions?",
+            "Are there any loyalty programs or rewards for regular customers?",
+            "How can I save on my orders?",
+            "Tell me about your current deals and offers.",
+            "Do you have a student discount?"
+          ],
+          "responses": [
+            "Yes, we have special discounts on selected tea and coffee products. You can check our website for the latest promotions and offers.",
+            "Absolutely! We frequently run promotions on our premium blends. Don't miss out on our current discounts.",
+            "Yes, we have a loyalty program that rewards our regular customers with exclusive discounts and perks. Sign up on our website for more details.",
+            "You can save on your orders by taking advantage of our ongoing promotions and by signing up for our loyalty program.",
+            "We have a range of current deals and offers that you can explore on our website. Don't forget to sign up for our newsletter to stay updated.",
+            "We offer a student discount on select products. Visit our website or contact us for more information on eligibility and savings."
+          ]
+        },
+        {
+          "tag": "customer_support",
+          "patterns": [
+            "How can I contact customer support?",
+            "I need assistance with my order",
+            "What's your return policy?",
+            "How can I request a refund?",
+            "What's the best way to get in touch with you?",
+            "I have a question. How do I reach out to your support team?",
+            "What's your customer service email?",
+            "Tell me more about your customer support options.",
+            "I'd like to talk to a customer service representative.",
+            "I want to return a product. How can I do that?",
+            "I have an issue with my order. Can you help me?"
+          ],
+          "responses": [
+            "Our customer support team is here to assist you. You can reach out to us through our website's live chat, email, or phone. We're ready to help!",
+            "If you have any questions or need assistance with your order, please don't hesitate to contact our dedicated customer support team.",
+            "Our return policy allows returns within 30 days of purchase. Visit our returns page for details.",
+            "To request a refund, contact our customer support team. They'll guide you through the process.",
+            "You can get in touch with our support team through our website's live chat, email us at support@yourwebsite.com, or call our hotline at (123) 456-7890.",
+            "Our customer service email is support@yourwebsite.com. We're available to assist you through various channels, so feel free to reach out.",
+            "We offer multiple customer support options, including live chat, email, and phone support. You can choose the method that suits you best.",
+            "If you'd like to talk to a customer service representative, please call our hotline, and we'll connect you with one of our helpful team members.",
+            "For information on how to return a product or assistance with an order issue, please contact our dedicated customer support team. They're here to help.",
+            "We're here to resolve any issues with your order. Please contact us, and we'll ensure your concern is addressed promptly."
+          ]
+        },
+        {
+          "tag": "reviews",
+          "patterns": [
+            "Can you share customer reviews?",
+            "What do customers say about your products?",
+            "Tell me about your product ratings and feedback.",
+            "Are there any testimonials from customers?",
+            "Where can I find product reviews?",
+            "Do you have a review section on your website?",
+            "I want to read what others think about your products.",
+            "How well are your products rated by customers?"
+          ],
+          "responses": [
+            "Our customers have shared fantastic reviews about our tea and coffee. You can find authentic reviews on our website to learn about their experiences.",
+            "We're proud to have received positive feedback from our satisfied customers. Check out the reviews section on our website for firsthand testimonials.",
+            "Our products have received excellent ratings and reviews from customers. You can explore their feedback on our website.",
+            "Customers have shared their testimonials and product feedback on our website. Feel free to read about their experiences and opinions.",
+            "You can find a dedicated review section on our website where customers have shared their thoughts on our products. It's a great resource for insights.",
+            "We have a review section on our website where customers have generously shared their experiences and opinions about our products.",
+            "Our products are highly rated by customers, and their reviews reflect their satisfaction with our offerings. Check out our website for more details."
+          ]
+        },
+        {
+          "tag": "recommendation",
+          "patterns": [
+            "What tea would you recommend?",
+            "Suggest a coffee blend for me",
+            "I'm new to your menu. What should I try?",
+            "Can you recommend a unique tea flavor?",
+            "Give me a coffee suggestion",
+            "What's your personal favorite tea?",
+            "I'm a coffee enthusiast. What's a must-try for me?",
+            "Help me choose a tea variety",
+            "I want to explore something new. What's your suggestion?"
+          ],
+          "responses": [
+            "For a soothing experience, we recommend trying our Chamomile Herbal Tea. If you prefer coffee, our House Blend is a great choice for its balanced flavor.",
+            "If you're new to coffee, you might enjoy our Medium Roast Blend. For a bolder taste, go for our French Roast. Enjoy your cup of goodness!",
+            "As a starting point, consider trying our classic Black Tea. If you're looking for coffee, our House Blend is a well-loved choice among our customers.",
+            "If you're in the mood for something unique, give our Blueberry Bliss Tea a try. For coffee enthusiasts, our Espresso Roast offers a bold experience.",
+            "A coffee suggestion is our House Blend, known for its well-balanced flavor. If you're interested in tea, explore our revitalizing Green Tea options.",
+            "One of our personal favorites is the Peppermint Herbal Tea. If you're into coffee, you'll enjoy our rich and aromatic French Roast.",
+            "For coffee enthusiasts, we recommend trying our Espresso Roast. If you prefer tea, our Honey Lemon Ginger Tea is a delightful and soothing choice.",
+            "Explore our variety of tea options, including classic Black Tea and vibrant Green Tea. If coffee is your preference, don't miss our House Blend.",
+            "Let's venture into something new! Consider our specialty Chai Tea for a different tea experience. For coffee, our Mocha Java blend is a unique choice."
+          ]
+        },
+        {
+          "tag": "brewing_tips",
+          "patterns": [
+            "How should I brew the perfect cup of tea?",
+            "Give me some coffee brewing tips",
+            "Teach me the art of tea brewing",
+            "I want to make the best coffee. Any tips?",
+            "What's the secret to a great cup of tea?",
+            "How can I brew coffee like a pro?",
+            "Tell me about your tea steeping recommendations."
+          ],
+          "responses": [
+            "To brew the perfect cup of tea, use freshly boiled water and steep the tea bag or leaves for the recommended time. Follow our brewing guide on the product label for best results.",
+            "For a delightful cup of coffee, use freshly ground beans, maintain the right water temperature, and consider your preferred brewing method, such as French press or drip. Check our website for detailed brewing tips.",
+            "Brewing tea is an art! Start with freshly boiled water and let the tea steep for the recommended time. Each tea has its own ideal brewing temperature and time, so explore our product labels for guidance.",
+            "For the best coffee, use high-quality beans, grind them just before brewing, and maintain the water temperature between 195-205°F. Experiment with different brewing methods to find your perfect cup.",
+            "The secret to a great cup of tea lies in using fresh, clean water and allowing it to steep for the right amount of time. Be patient and savor the flavor as it develops.",
+            "To brew coffee like a pro, invest in quality beans, grind them to your desired coarseness, and experiment with brew times to find your ideal taste. Each cup is a work of art.",
+            "Tea steeping is an intricate process. Follow the recommended steeping times and temperatures on our product labels to unlock the full flavor of your tea."
+          ]
+        },
+        {
+          "tag": "casual_jokes",
+          "patterns": [
+            "Tell me a joke",
+            "Tell me a coffee pun joke",
+            "Tell me a tea pun joke"
+          ],
+          "responses": [
+            "Why did the coffee file a police report? It got mugged!",
+            "How do you know coffee is strong enough? It can espresso itself.",
+            "What do you call it when someone spills their tea? It's a proper-tea disaster!"
+          ]
+        }
+]
+      }
